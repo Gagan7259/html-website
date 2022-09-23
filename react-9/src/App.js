@@ -1,9 +1,8 @@
-import State1 from "./state example/State1";
-import Navbar from "./Navbar"
+import Register from "./form page/Register";
  function App() {
   return (
     <div className="App">
-      <State1/>
+            <Register/>
     </div>
   );
 }
