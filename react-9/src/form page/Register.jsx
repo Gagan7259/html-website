@@ -12,13 +12,13 @@ export class Register extends Component {
           <pre>{JSON.stringify(this.state)}</pre>
           <div className="row">
             <div className="col-md-6">
-                <div className="card bg-secondary text-white">
+                <div className="card bg-danger text-white">
                     <div className="card-headr">
                         <label>REGISTRATION</label>
                     </div>
                     <div className="card-body">
                         <div>
-                            <label>EMAIL</label>
+                            <label>EMAIL ID   </label>
                             <input type="text"  />
                         </div><div>
                             <label>PASSWORD</label>

@@ -1,9 +1,9 @@
-import Register from "./form page/Register";
- function App() {
+import React from "react";
+import Emp from "./employee/Emp";
+function App() {
   return (
     <div className="App">
-            <Register/>
-    </div>
+<Emp/>    </div>
   );
 }
 
